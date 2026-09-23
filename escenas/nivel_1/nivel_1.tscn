@@ -1,0 +1,15 @@
+[gd_scene format=4 uid="uid://cxoklhjb0vyk2"]
+
+[ext_resource type="TileSet" uid="uid://bf043qlqonard" path="res://tile_sets/general.tres" id="1_7dyb3"]
+[ext_resource type="PackedScene" uid="uid://b8jlx6bs2jc7k" path="res://escenas/personaje/personaje.tscn" id="2_ahhdk"]
+
+[node name="Nivel1" type="Node2D" unique_id=1705056429]
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1704042108]
+zoom = Vector2(4.365, 4.365)
+
+[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=493883011]
+tile_map_data = PackedByteArray("AAD+////BAABAAEAAAD+/wAABAABAAEAAAD//wAABAABAAEAAAD//wEABAABAAEAAAAAAAEABAABAAEAAAABAAEABAABAAEAAAABAAAABAABAAEAAAABAP//BAABAAEAAAAAAP//BAABAAEAAAD/////BAABAAEAAAD+/wEABAABAAEAAAD+//7/BAABAAAAAAD///7/BAABAAAAAAAAAP7/BAABAAAAAAABAP7/BAABAAAAAAABAAIABAABAAIAAAAAAAIABAABAAIAAAD//wIABAABAAIAAAD+/wIABAABAAIAAAD9/wIABAABAAIAAAD8/wIABAAAAAIAAAD8/wEABAAAAAEAAAD8/wAABAAAAAEAAAD8////BAAAAAEAAAD8//7/BAAAAAAAAAD9//7/BAABAAAAAAACAP7/BAABAAAAAAADAP7/BAACAAAAAAADAP//BAACAAEAAAADAAAABAACAAEAAAADAAEABAACAAEAAAADAAIABAACAAIAAAACAAIABAABAAIAAAACAP//BAABAAEAAAACAAAABAABAAEAAAACAAEABAABAAEAAAAAAAAABAABAAEAAAD9/wAABAABAAEAAAD9////BAABAAEAAAD9/wEABAABAAEAAAA=")
+tile_set = ExtResource("1_7dyb3")
+
+[node name="Personaje" parent="." unique_id=157777620 instance=ExtResource("2_ahhdk")]
