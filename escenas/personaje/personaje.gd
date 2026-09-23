@@ -15,6 +15,7 @@ func _physics_process(delta):
 		velocity.x = -_velocidad
 		animacion.play("correr")
 	elif Input.is_action_pressed("arriba"):
+		animacion.play("subir");
 		velocity.y = -_velocidad
 	elif Input.is_action_pressed("abajo"):
 		velocity.y = _velocidad

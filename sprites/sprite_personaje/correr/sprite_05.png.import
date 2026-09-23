@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://boq0y5vv5bd27"
-path="res://.godot/imported/sprite_06.png-0dd36a57948f4f3f6337242cd6984a71.ctex"
+uid="uid://burcowjcxykcd"
+path="res://.godot/imported/sprite_05.png-15dc031ab75a1a3b71d1193594526101.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/sprite_personaje/sprite_06.png"
-dest_files=["res://.godot/imported/sprite_06.png-0dd36a57948f4f3f6337242cd6984a71.ctex"]
+source_file="res://sprites/sprite_personaje/correr/sprite_05.png"
+dest_files=["res://.godot/imported/sprite_05.png-15dc031ab75a1a3b71d1193594526101.ctex"]
 
 [params]
 
