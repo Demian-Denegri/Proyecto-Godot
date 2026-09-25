@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://8schnb05gusp" path="res://escenas/personaje/personaje.gd" id="1_yv5yb"]
 [ext_resource type="SpriteFrames" uid="uid://c6xyf2qgk2a1k" path="res://escenas/personaje/sprite_frames_personaje.tres" id="2_yv5yb"]
+[ext_resource type="AudioStream" uid="uid://cfkjnqlw4r2vg" path="res://sprites/sprite_personaje/vercion nueva/drum-pattern-80bpm-4x.wav" id="3_wky4x"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ogn6l"]
 size = Vector2(32, 32)
@@ -14,6 +15,12 @@ animacion = NodePath("Animacion")
 shape = SubResource("RectangleShape2D_ogn6l")
 
 [node name="Animacion" type="AnimatedSprite2D" parent="." unique_id=1755736944]
+position = Vector2(-3.5762787e-07, 0)
+scale = Vector2(0.9142858, 1)
 sprite_frames = ExtResource("2_yv5yb")
-animation = &"idle"
-frame_progress = 0.26524648
+animation = &"correr_abajo"
+frame_progress = 0.16109513
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=1256224220]
+stream = ExtResource("3_wky4x")
+autoplay = true
