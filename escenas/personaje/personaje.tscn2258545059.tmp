@@ -18,7 +18,7 @@ shape = SubResource("RectangleShape2D_ogn6l")
 position = Vector2(-3.5762787e-07, 0)
 scale = Vector2(0.9142858, 1)
 sprite_frames = ExtResource("2_yv5yb")
-animation = &"pegar_eje_Y"
+animation = &"idle"
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=1256224220]
 stream = ExtResource("3_wky4x")
